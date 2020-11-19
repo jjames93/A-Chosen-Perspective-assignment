@@ -1,0 +1,47 @@
+body {
+    font-family: Hind Siliguri,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.42857;
+    color: #838383;
+    background-image: url(/assets/images/polkadots.png);
+    background-size:  500px;
+    background-repeat: repeat;
+}
+
+
+.background-image-container {
+    background-image: url(/assets/images/wave-hero-backgroundwhat.png);
+}
+
+.navbar-default.active {
+    background-image: url(/assets/images/wave-headernew.png);
+    background-position: 0 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.footer-container {
+    background-image: url(/assets/images/wave-footer-new.png);
+    padding: 60px 0;
+    margin-top: 30px;
+}
+
+.alert-success {
+    background-color: #5eaa6e;
+    border-color: #08005f;
+    color: #fff;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Martel,Times New Roman,Times,serif;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #eea44f;
+}
+
+.h2:after, h2:after {
+    content: "...";
+    color: #eea44f;
+    display: block;
+}
